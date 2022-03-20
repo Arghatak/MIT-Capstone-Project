@@ -1,3 +1,4 @@
+![plot](https://user-images.githubusercontent.com/10033026/159179539-83296cd2-8484-4d90-b354-0f6d672d82fe.png)
 # MIT-Capstone-Project
 A Deep Learning project I am working on as a part of my Applied Data Science Program with MIT
 
@@ -11,3 +12,18 @@ A Deep Learning project I am working on as a part of my Applied Data Science Pro
 
 - The parasitized cells contain the Plasmodium parasite
 - The uninfected cells are free of the Plasmodium parasites but could contain other impurities
+
+## **Steps to Solve**
+
+1. Importing Libraries.
+2. Loading the data.
+3. Data preprocessing.
+4. Data augmentation.
+5. Ploting images and its labels to understand how does an infected cell and uninfected cell looks like.
+6. Spliting data in Train , Evaluation and Test set.
+7. Creating a Convolution Neural Network function.
+8. Wrapping it with Tensorflow Estimator function.
+9. Training the data on Train data.
+10. Evaluating on evaluation data.
+11. Predicting on Test data
+12. Ploting the predicted image and its respective True value and predicted value.
