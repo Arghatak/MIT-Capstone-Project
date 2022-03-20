@@ -1,4 +1,5 @@
-![plot](https://user-images.githubusercontent.com/10033026/159179539-83296cd2-8484-4d90-b354-0f6d672d82fe.png)
+
+![dl_medical_imaging_malaria_dataset_8DrQhbFeEr](https://user-images.githubusercontent.com/10033026/159179665-1f3d114e-3e18-4cca-9c22-787fc80e2488.jpg)
 
 # MIT-Capstone-Project
 A Deep Learning project I am working on as a part of my Applied Data Science Program with MIT
