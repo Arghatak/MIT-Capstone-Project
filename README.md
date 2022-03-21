@@ -29,3 +29,29 @@ Malaria is a contagious disease caused by Plasmodium parasites that are transmit
 10. Evaluating on evaluation data.
 11. Predicting on Test data
 12. Ploting the predicted image and its respective True value and predicted value.
+
+## **Libraries to Import**
+
+import numpy as np #Numpy for computation powers
+import pandas as pd #pandas for data analysis and manipulation
+import matplotlib.pyplot as plt #for visualization
+import seaborn as sns #for visualization
+from os import listdir
+import imutils
+import cv2
+
+import tensorflow as tf
+from tensorflow.keras.models import Sequential, Model, Load_model
+from tensorflow.keras.applications.vgg19 import VGG19
+from tensorflow.keras.applications.resnet50 import preprocess_input
+from tensorflow.keras.preprocessing import image
+from tensorflow.keras.preprocessing.image import ImageDataGenerator,load_img
+from tensorflow.keras.layers import Input, Lambda, Dense, Conv2D, MaxPool2D, BatchNormalization, Dropout, Flatten, LeakyReLU, GlobalAvgPool2D, ZeroPadding2D, Activation
+from tensorflow.keras.utils import to_categorical
+from tensorflow.keras import optimizers
+from tensorflow.keras.callbacks import TensorBoard,ModelCheckpoint
+
+from sklearn.model_selection import train_test_split #to split data into sets for training, testing and validating
+from sklearn.preprocessing import MinMaxScaler #scales and translates feature such that it is in the given range on the training set
+from sklearn.metrics import f1_score
+from sklearn.utils import shuffle
